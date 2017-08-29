@@ -51,7 +51,7 @@ public class ParenthesisBalance
             }
         }
 
-        if(parenthesis.size() != 0)
+        if(parenthesis.size() == 0)
             return "Yes";
         else
             return "No";
