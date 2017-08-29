@@ -50,6 +50,10 @@ public class ParenthesisBalance
                 }
             }
         }
-        return "Yes";
+
+        if(parenthesis.size() != 0)
+            return "Yes";
+        else
+            return "No";
     }
 }
